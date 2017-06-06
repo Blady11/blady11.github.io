@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800i|Source+Sans+Pro:300,300i,400,400i,600i,700,900" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+    <title> Paper, Rock, Scissors</title>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+
+        <div class="main">
+            
+            <div class="window-1">
+                
+                <h1>Paper, Rock, Scissors Game!</h1>
+                <img alt="Main image with paper,rock,scissors" src="images/picture1.png">
+               
+            </div>
+                <button class="start">Play</button>
+                <button class="close">Close</button>
+
+            <div class="window-2">
+
+                <h1>Choose your weapon</h1>
+
+                <ul>
+
+                    <li><img alt="paper" src="images/paper.png" class="paper"></li>
+                    <li><img alt="rock" src="images/rock.png" class="rock"></li>
+                    <li><img alt="scissor" src="images/scissor.png" class="scissor"></li>
+
+                </ul>
+                
+                <div class="row">
+                    
+                    <div class="col-6">
+                        
+                        <span class="player"> </span>
+                        <span class="player-chose"></span>
+                    
+                    </div>
+                    
+                    <div class="col-6">
+                        
+                        <span class="comp"> Computer </span>
+                        <span class="comp-chose"></span>
+                    
+                    </div>
+                    
+                    <div class="score-both">
+                        
+                        <span class="my-score"></span>
+                        <span class="comp-score"></span>
+                    
+                    </div>
+                    
+                    <div class="score-row">
+                        
+                        <p class="score-text"></p>
+                    
+                    </div>
+                                    
+                </div>    
+
+            </div>
+            
+            <div class="name-window">
+                <p>Provide your name!</p>
+                <input type="text" placeholder="Name" class="name-input">
+                <div class="row-btn">
+                    
+                    <button type='submit' class='btn-name' id="btnOk">OK</button>
+                    <button type='submit' class='btn-name' id="btnCancel">CANCEL</button>
+                
+                </div>
+            
+            </div>
+            
+            <div class="info-wrapper">
+            
+                <div class="info-window">
+
+                    <span class="player-msg"></span>
+                    <span class="comp-msg">The Computer have won</span>
+                    <button type='submit' class='btn-name' id="btnLastOk">OK</button>
+                    
+                </div>
+            
+            </div>
+
+        </div>
+    
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>
