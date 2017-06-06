@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800i|Source+Sans+Pro:300,300i,400,400i,600i,700,900" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+    <title> To Do List</title>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        
+        <div class="head"> 
+
+            <h1>To do list</h1> 
+
+            <input type="text" id="name" placeholder="Name..">
+            <button type="button" id="add"> Add </button>
+            
+            <ul class="btns-del">
+                <li class="btn-del-check"><button type="button" id="delete-complete"> Delete checked </button></li>
+                <li class="btn-del-all"><button type="button" id="delete-all"> Delete all </button></li>
+            </ul>
+            
+            
+            <span class="counter">Number of items:<span class="number"></span></span>
+            <span class="counter-check">Checked:<span class="complete-number"></span></span>
+
+        </div>
+
+        <ul class="list-items">
+
+
+        </ul>
+    
+    </div>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>
