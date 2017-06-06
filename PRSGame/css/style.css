@@ -216,11 +216,10 @@ h1,p {
 
 /*================= RWD =============*/
 
-@media all (max-width:768px){
+@media all and (max-width:700px){
     
-    .main {
-        background-position: left center;
+    .info-window {
+        margin-top: 20%;
     }
-    
     
 }
