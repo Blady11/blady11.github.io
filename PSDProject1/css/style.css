@@ -803,6 +803,10 @@ div.item {
     background-color: rgb(243, 129, 129);
 }
 
+.map .section-title h1 a {
+    color: rgb(243, 129, 129);
+    text-decoration: none;
+}
 
 /*=============FOOTER SECTION===============*/
 
