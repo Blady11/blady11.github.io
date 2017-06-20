@@ -88,3 +88,22 @@ $(document).ready(function(){
     
     });
 });
+
+$(document).ready(function(){
+    
+     $('.service2-item div >img:last-child').click(function(){
+        
+        $(this).parent().parent().children('.scrollbar').toggleClass('active');
+        
+         if ($('.scrollbar').hasClass('active')){
+             $(this).css({
+             'transform':'rotate(0)'
+         })}
+         else {
+             $(this).css({
+             'transform':'rotate(180deg)'
+         })
+         }
+        
+    });
+});
