@@ -169,8 +169,11 @@ body {
 }
 
 .info-window {
-    margin:auto;
-    margin-top:20%;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
     width:300px;
     height: 100px;
     background-color: white;
@@ -181,7 +184,7 @@ body {
 }
 
 .info-wrapper {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     background-color: rgba(0,0,0,0.4);
