@@ -38,9 +38,19 @@ $('.nav-item, #scroll-to-top, .navbar-brand')
   });
 });
 
-$('.counter-num').counterUp({
-    delay: 10,
-    time: 2000
+$(document).ready(function(){
+
+        $('.counter-num').each(function () {
+            $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
 });
 
 $(document).ready(function(){
