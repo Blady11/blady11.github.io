@@ -142,14 +142,16 @@ body {
 
 .comp-chose {
     position: absolute;
-    right:130px;
-    bottom: 70px
+    top:50%;
+    right:50%;
+    transform: translate(50%);
 }
 
 .player-chose {
     position: absolute;
-    left:140px;
-    bottom: 70px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%);
 }
 
 .score-both {
