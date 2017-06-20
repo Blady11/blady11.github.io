@@ -160,8 +160,9 @@ body {
     font-size: 30px;
     color: cornsilk;
     position: absolute;
-    left:45%;
+    left:50%;
     top:54%;
+    transform: translate(-50%);
 }
 
 .my-score {
