@@ -369,6 +369,8 @@ section .section-title > p {
 
 /*==========SERVICE V2 SECTION===============*/
 
+
+
 .service-img {
     max-width: 570px;
     margin: auto;
@@ -419,6 +421,8 @@ section .section-title > p {
     right:30px;
     margin-top: 20px;
     z-index: 2;
+    transform: rotate(180deg);
+    transition: 0.5s all;
 }
 
 .service2 .row:last-child {
@@ -439,8 +443,9 @@ section .section-title > p {
 	overflow-y: scroll;
 	margin-bottom: 25px;
     margin-right: 10px;
-	display:none;
+    display: none;
 }
+
 
 .force-overflow
 {
