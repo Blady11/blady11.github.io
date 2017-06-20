@@ -75,3 +75,16 @@ $(document).ready(function(){
     
 });
 
+$(document).ready(function(){
+    
+    'use strict';
+    
+    $('.nav-item').click(function () {
+       
+
+        if ($(window).width() < 768) {
+            $('#mogo-navbar-collapse-1').removeClass('in');
+        } 
+    
+    });
+});
