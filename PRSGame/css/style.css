@@ -15,8 +15,7 @@ body {
     position: absolute;
     top:0;
     left: 0;
-    height:100%;
-    width:100%;
+    width:100vw;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -49,8 +48,11 @@ body {
 
 .window-1 h1 {
     position: absolute;
-    margin-left:120px;
-    margin-top: 60px;
+    left:50%;
+    top:20%;
+    transform: translate(-50%,50%);
+    margin: auto;
+    font-size: 20px;
 }
 
 .window-2 {
@@ -160,7 +162,7 @@ body {
 
 .info-window {
     margin:auto;
-    margin-top:400px;
+    margin-top:20%;
     width:300px;
     height: 100px;
     background-color: white;
@@ -211,15 +213,3 @@ h1,p {
     padding-bottom: 10px;
 }
 
-
-
-
-/*================= RWD =============*/
-
-@media all and (max-width:700px){
-    
-    .info-window {
-        margin-top: 20%;
-    }
-    
-}
