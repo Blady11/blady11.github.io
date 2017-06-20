@@ -95,10 +95,12 @@ $(document).ready(function(){
         
         $(this).parent().parent().children('.scrollbar').toggleClass('active');
         
-         if ($('.scrollbar').hasClass('active')){
+        
+         if ($(this).parent().parent().children('.scrollbar').hasClass('active')){
              $(this).css({
              'transform':'rotate(0)'
-         })}
+         })
+         }
          else {
              $(this).css({
              'transform':'rotate(180deg)'
