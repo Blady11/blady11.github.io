@@ -427,6 +427,10 @@ section .section-title > p {
 
 /*===========SERVICE V2 SCROLLBAR CUSTOMIZE============*/
 
+.scrollbar.active {
+    display: block;
+}
+
 .scrollbar
 {
 	margin-left: 30px;
@@ -435,6 +439,7 @@ section .section-title > p {
 	overflow-y: scroll;
 	margin-bottom: 25px;
     margin-right: 10px;
+	display:none;
 }
 
 .force-overflow
