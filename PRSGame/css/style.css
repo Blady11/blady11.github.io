@@ -54,6 +54,7 @@ body {
     transform: translate(-50%,50%);
     margin: auto;
     font-size: 20px;
+    z-index:2;
 }
 
 .window-1 img {
