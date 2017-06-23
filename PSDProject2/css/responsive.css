@@ -64,6 +64,9 @@
         font-size: 80%;
     }
     
+    .navbar-default .navbar-nav>li{
+        padding-bottom: 10px;
+    }
     .navbar-default .navbar-nav>li>a {
         color: white;
     }
