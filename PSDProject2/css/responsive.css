@@ -1,0 +1,186 @@
+/*@media all and (max-width:800px){
+    
+    section .section-title > h1 {
+        font-size: 36px;
+    }
+    
+    section .section-title > h2{
+        font-size: 75px;
+    }
+}
+@media (min-width: 992px){
+
+.col-md-offset-2 {
+    margin-left: 21%;
+}
+}*/
+
+
+
+
+/* Large devices, Wide Screen */
+
+
+@media (min-width:1200px){
+    
+    .container {
+        width:1200px;
+    }
+    
+}
+    
+
+/* Small devices and Tablets */
+
+@media only screen and (max-width:768px){
+ 
+    .header-text, .header-btns {
+        text-align: center;
+    }
+    
+    .header .header-text h1 {
+        font-size: 36px;
+    }
+    
+    .header .header-text h2 {
+        font-size: 75px;
+    }
+    
+    .navbar-collapse[aria-expanded="true"] .navbar {
+        background-color: rgb(68, 68, 68);
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        text-align: center;
+    }
+    
+    .navbar-default {
+        background-color: rgba(68, 68, 68, 0.7)
+    }
+    
+    .thumbnail p,
+    .thumbnail h1,
+    .thumbnail h2{
+        font-size: 80%;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+    }
+    section .section-title > p {
+        margin-bottom: 0;
+    }
+    
+    .discography-time {
+        height: 0;
+    }
+    
+    .discography-text {
+        margin-top: 100px;
+    }
+    
+    .concert-time {
+        margin-top: 50px;
+    }
+    
+    .concert-time h1 {
+        margin-bottom: 20px;
+    }
+    
+    .video-desc,
+    .video-desc2{
+        height: auto;
+    }
+        
+    .carousel-control.left {
+         border-top: 20px solid transparent;
+          border-bottom: 20px solid transparent;
+          border-left: 20px solid white;
+    }
+    
+    .carousel-control.right {
+        border-top: 20px solid transparent;
+          border-bottom: 20px solid transparent;
+          border-right: 20px solid white;
+    }
+    
+    .carousel-control.right img {
+        right:-15px;
+    }
+    
+    .carousel-control.left img {
+        left: -15px;
+    }
+    
+    .upcoming-events {
+        height: auto;
+    }
+    
+    .upcoming-events .section-title {
+        margin:0;
+    }
+    
+    .history .section-title p {
+        margin-bottom: 0;
+    }
+    
+    .active1:after {
+        width:50%;
+        margin-left: 25%;
+    }
+}
+
+/* Medium devices, Desktop */
+
+@media only screen and (max-width:992px){
+ 
+    .item p {
+        padding-left: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    div.item {
+        padding: 0 20px;
+    }
+    
+    
+    .nav>li {
+        padding: 0;
+    }
+    
+    .grid-album{
+    line-height: 0;
+  -webkit-column-count: 2;
+  -webkit-column-gap:   0;
+  -moz-column-count:    2;
+  -moz-column-gap:      0;
+  column-count:         2;
+  column-gap:           0;
+}
+    
+}
+
+@media (max-width:390px){
+    
+    
+    
+}
+
+
+@media (max-width:436px){
+    .grid-album{
+    line-height: 0;
+  -webkit-column-count: 1;
+  -webkit-column-gap:   0;
+  -moz-column-count:    1;
+  -moz-column-gap:      0;
+  column-count:         1;
+  column-gap:           0;
+}
+    .thumbnail p,
+    .thumbnail h1,
+    .thumbnail h2{
+        font-size: 100%;
+    }
+}
